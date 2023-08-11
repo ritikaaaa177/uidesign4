@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Inter:wght@600&family=Lobster&family=Merriweather:ital,wght@1,300&family=Pacifico&family=Playfair+Display:ital@0;1&family=Poppins:ital,wght@0,400;0,500;1,500&display=swap');
+
+
+* {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* background-color: rgb(180, 171, 171); */
+}
+
+body {
+    background-color: lightgrey;
+}
+
+
+.container {
+    border: 2px solid white;
+    width: 374px;
+    height: 389px;
+    margin: auto;
+    position: relative;
+    top: 200px;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+
+
+body {
+    font-family: sans-serif;
+}
+
+.second-para i {
+    color: #2753a0;
+    margin: 0px 6px;
+    font-size: 14px;
+}
+
+.head-1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 22px;
+}
+
+.first-para {
+
+    /* border: 2px solid green; */
+    width: 279px;
+    text-align: center;
+    margin-left: 46px;
+    margin-top: 10px;
+
+}
+
+.inp-val {
+    margin-left: 62px;
+    margin-top: 28px;
+    width: 257px;
+    padding: 17px 14px;
+    /* color: grey; */
+    border-radius: 4px;
+    border: 2px solid lightgrey;
+}
+
+.second-para {
+    margin-left: 73px;
+    font-size: 10px;
+    width: 244px;
+    margin-top: 28px;
+    display: flex;
+}
+
+
+
+.btn {
+    margin: auto;
+    display: block;
+    margin-top: 17px;
+    width: 247px;
+    padding: 14px 45px;
+    color: white;
+    background-color: darkslateblue;
+    border-radius: 3px;
+    outline: none;
+}
