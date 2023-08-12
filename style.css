@@ -18,18 +18,39 @@ body {
 }
 
 
+
 .container {
     border: 2px solid white;
     width: 374px;
     height: 389px;
     margin: auto;
     position: relative;
-    top: 200px;
+    top: 682px;
     background-color: white;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     border-radius: 6px;
+    z-index: 100;
 }
 
+.circle {
+    width: 450px;
+    height: 450px;
+    background: linear-gradient(to bottom, #fa39ad 40%, #fe6c4c 50%);
+    filter: blur(120px);
+    margin: auto;
+    position: relative;
+    top: 279px;
+    left: 265px;
+    border-radius: 50%;
+}
+
+.circle2 {
+    width: 450px;
+    height: 450px;
+    background: linear-gradient(to bottom, #270cd4 40%, #e5e2e2 50%);
+    filter: blur(120px);
+    margin-left: 300px;
+}
 
 body {
     font-family: sans-serif;
